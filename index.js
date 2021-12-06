@@ -1,5 +1,5 @@
-const mongooseHandler = require("./mongoose");
-const expressApp = require("./express");
+const mongooseHandler = require("./mongoose/mongoose");
+const expressApp = require("./express/express");
 
 let app;
 let httpServer;
